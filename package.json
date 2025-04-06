@@ -2,11 +2,18 @@
   "private": true,
   "scripts": {
     "test": "jest",
-    "start": "webpack-dev-server --hot --progress"
+    "start": "webpack-dev-server --hot --progress",
+    "build": "webpack --env prod",
+    "serve": "webpack-dev-server --history-api-fallback --open --mode development"
   },
   "dependencies": {
+    "@fontsource-variable/space-grotesk": "^5.2.6",
+    "@tanstack/react-query": "^5.71.10",
+    "axios": "^1.8.4",
     "react": "^18.1.0",
-    "react-dom": "^18.1.0"
+    "react-dom": "^18.1.0",
+    "recharts": "^2.15.2",
+    "sonner": "^2.0.3"
   },
   "devDependencies": {
     "@babel/core": "^7.22.7",
@@ -16,15 +23,30 @@
     "@babel/preset-react": "^7.22.5",
     "@babel/preset-typescript": "^7.22.5",
     "@babel/runtime": "^7.22.6",
+    "@eslint/js": "^9.24.0",
     "@types/jest": "^29.5.2",
+    "autoprefixer": "^10.4.21",
     "babel-jest": "^29.6.0",
     "babel-loader": "^9.1.2",
+    "css-loader": "^7.1.2",
+    "eslint": "^9.24.0",
+    "eslint-config-prettier": "^10.1.1",
+    "eslint-plugin-prettier": "^5.2.6",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-simple-import-sort": "^12.1.1",
+    "globals": "^16.0.0",
     "html-webpack-plugin": "^5.5.3",
     "jest": "^29.6.0",
     "jest-transform-stub": "^2.0.0",
     "mini-css-extract-plugin": "^2.7.6",
+    "postcss": "^8.5.3",
+    "postcss-loader": "^8.1.1",
+    "prettier": "3.5.3",
+    "prettier-plugin-tailwindcss": "^0.6.11",
+    "tailwindcss": "^3.4.17",
     "ts-jest": "^29.1.1",
     "typescript": "^5.1.6",
+    "typescript-eslint": "^8.29.0",
     "webpack": "^5.88.1",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^4.15.1"
