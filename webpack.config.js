@@ -14,9 +14,9 @@ module.exports = {
 		app: ['./index.tsx'],
 	},
 	output: {
-		filename: '[name]-[contenthash:6].bundle.js',
-		path: path.join(__dirname, 'build'),
-		publicPath: `http://${host}:${port}/`,
+		filename: 'bundle.js',
+		path: path.resolve(__dirname, 'build'),
+		publicPath: `/`,
 	},
 	resolve: {
 		mainFields: ['browser', 'module', 'main'],

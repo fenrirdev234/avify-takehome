@@ -4,7 +4,7 @@
     "test": "jest",
     "start": "webpack-dev-server --hot --progress",
     "build": "webpack --env prod",
-    "serve": "webpack serve --config webpack.config.js"
+    "serve": "webpack-dev-server --history-api-fallback --open --mode development"
   },
   "dependencies": {
     "@fontsource-variable/space-grotesk": "^5.2.6",
