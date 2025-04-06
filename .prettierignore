@@ -1,0 +1,9 @@
+# Ignore artifacts:
+dist
+build
+package.json
+package-lock.json
+node_modules
+public
+coverage
+.husky
