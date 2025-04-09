@@ -9,8 +9,8 @@ import {
 	YAxis,
 } from 'recharts'
 
-import { IGenerationmix } from '../../../models/energy.model'
-import { getColorChart } from '../../../utils/getColorChart'
+import { IGenerationmix } from '../../models/energy.model'
+import { getColorChart } from '../../utils/getColorChart'
 
 interface IBarChartSectionProps {
 	data: IGenerationmix[]

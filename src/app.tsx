@@ -1,8 +1,8 @@
 import { useQuery } from '@tanstack/react-query'
 import React from 'react'
 
-import { BarChartSection } from './components/chart/barChart'
-import { PieChartSection } from './components/chart/pieChart'
+import { BarChartSection } from './components/chart/BarChartSection'
+import { PieChartSection } from './components/chart/PieChartSection'
 import { getEnergies } from './services/energy.services'
 
 export const App = () => {
